@@ -15,6 +15,7 @@ header {
 
 main {
     padding: 20px;
+    padding-bottom: 60px; /* To avoid overlap with the footer */
 }
 
 section {
@@ -51,4 +52,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 100;
 }
